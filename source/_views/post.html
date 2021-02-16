@@ -14,7 +14,7 @@
             <!-- <p class="categories">
             Categories:
             {% for category in page.categories %}
-            <a href="{{ site.url }}/briefs/categories/{{ category|url_encode(true) }}">{{ category }}</a>{% if not loop.last %}, {% endif %}
+            <a href="{{ site.url }}/news/categories/{{ category|url_encode(true) }}">{{ category }}</a>{% if not loop.last %}, {% endif %}
             {% endfor %}
             </p> -->
         {% endif %}
@@ -22,21 +22,21 @@
             <p class="tags">
             Tags:
             {% for tag in page.tags %}
-            <a href="{{ site.url }}/briefs/tags/{{ tag|url_encode(true) }}">{{ tag }}</a>{% if not loop.last %}, {% endif %}
+            <a href="{{ site.url }}/news/tags/{{ tag|url_encode(true) }}">{{ tag }}</a>{% if not loop.last %}, {% endif %}
             {% endfor %}
             </p>
         {% endif %}
         <div class="glow-bar glow-bar-end-post container-fluid">&nbsp;</div>
         {% if page.previous_post or page.next_post %}
             <nav class="article post">
-                
+
                     {% if page.next_post %}
                         <span>Next: <a class="next" href="{{ site.url }}{{ page.next_post.url }}" title="{{ page.next_post.title }}"><span class="title">{{ page.next_post.title }}</span></a></span>
                     {% endif %}
                     {% if page.previous_post %}
                         <span>Previous: <a class="previous" href="{{ site.url }}{{ page.previous_post.url }}" title="{{ page.previous_post.title }}"><span class="title">{{ page.previous_post.title }}</span></a></span>
                     {% endif %}
-                
+
             </nav>
         {% endif %}
     </article>

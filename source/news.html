@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Briefs Archive
+title: News Archive
 generator: pagination
 use:
     - posts
@@ -45,7 +45,7 @@ use:
 
       <div>
       {% for category,posts in data.posts_categories %}
-      <a href="{{ site.url }}/briefs/categories/{{ category|url_encode(true) }}">{{ category }}</a>
+      <a href="{{ site.url }}/news/categories/{{ category|url_encode(true) }}">{{ category }}</a>
       {% endfor %}
       </div>
 
@@ -53,7 +53,7 @@ use:
 
       <div>
       {% for tag,posts in data.posts_tags %}
-      <a href="{{ site.url }}/briefs/tags/{{ tag|url_encode(true) }}">{{ tag }}</a>
+      <a href="{{ site.url }}/news/tags/{{ tag|url_encode(true) }}">{{ tag }}</a>
       {% endfor %}
       </div>
 
