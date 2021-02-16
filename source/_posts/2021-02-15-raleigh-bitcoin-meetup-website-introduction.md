@@ -1,5 +1,5 @@
 ---
-title: Raleigh Bitcoin Meetup Website
+title: Holly Springs Bitcoin Meetup Website
 tags:
     - bitcoin
     - meetup
@@ -8,7 +8,7 @@ categories:
     - meetup
 ---
 
-The Raleigh Bitcoin Meetup now has a website. You are looking at it!
+The Holly Springs Bitcoin Meetup now has a website. You are looking at it!
 
 ---
 

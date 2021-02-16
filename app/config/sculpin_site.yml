@@ -1,8 +1,8 @@
 # The contents of this file are parsed and made available as
 # via `site.*`. So for example, {{ site.title }} can be used
 # in a template to get the contents of the `title` key.
-title: Raleigh Bitcoin Meetup
-subtitle: Visit for bitcoin knowledge, stay for community.
+title: Holly Springs Bitcoin Meetup
+subtitle: Friendly suburb meetup for the Bitcoin curious
 
 # Insert your disqus shortname
 #disqus:
