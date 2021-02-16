@@ -2,7 +2,7 @@
 @import "../../../node_modules/highlightjs/styles/github.css";
 
 
-// Way to import another scss file so I can organize. 
+// Way to import another scss file so I can organize.
 // @import "blog";
 
 small {
@@ -30,7 +30,7 @@ $green: #39FDA6;
 $black: #505050;
 
 body {
-	color: #303030; //soften the blacks. 
+	color: #303030; //soften the blacks.
 }
 a{
 	color: $purple-blue;
@@ -174,7 +174,7 @@ nav.navbar {
 	animation-duration: 15s;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
-	animation-timing-function: linear; 
+	animation-timing-function: linear;
 }
 .glow-bar-nav {
 	height: 5px;
@@ -188,7 +188,7 @@ nav.navbar {
 .glow-bar-end-post {
 	height: 3px;
 	margin: 5em 0 0;
-}	
+}
 
 main {
 	article {
@@ -256,12 +256,12 @@ footer {
 		animation-duration: 15s;
 		animation-iteration-count: infinite;
 		animation-direction: alternate;
-		animation-timing-function: linear; 
+		animation-timing-function: linear;
 		color: white;
 		.col {
 			text-align: center;
 		}
-		
+
 		.footer-nav {
 			padding: 0;
 			// margin: 0 0 4px;
@@ -329,7 +329,7 @@ footer {
 		animation-duration: 15s;
 		animation-iteration-count: infinite;
 		animation-direction: alternate;
-		animation-timing-function: linear; 
+		animation-timing-function: linear;
 		position: relative;
 		z-index: 10;
 	}
@@ -414,4 +414,3 @@ footer {
 		}
 	}
 }
-

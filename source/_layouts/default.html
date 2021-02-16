@@ -71,11 +71,11 @@
                     <ul class="navbar-nav mr-auto">
                         {% for item in navigation_bar %}
                         <li{% if page.active_tab == item[0] %} class="active"{% endif %}>
-                            
+
                             <div class="tri tri2"></div>
                             <a class="nav-link" href="{{ site.url }}/{{item[0]}}">{{item[1]}}</a>
                             <div class="tri"></div>
-                            
+
                         </li>
                         {% endfor %}
                     </ul>
